@@ -1,0 +1,14 @@
+:root {
+  --bg: #f2f2ff;
+  --mainColor: #5e9dd6;
+  --pColor: #223;
+  --hColor: #a63d40;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg);
+  scroll-behavior: smooth;
+}

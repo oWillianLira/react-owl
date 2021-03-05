@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import './General.css';
+import Start from './Start';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Start />
   </React.StrictMode>,
-  document.getElementById('donotopen'),
+  document.getElementById('do_not_open'),
 );
